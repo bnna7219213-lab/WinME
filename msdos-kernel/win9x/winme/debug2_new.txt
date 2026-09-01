@@ -1,0 +1,7 @@
+boot32: stage1
+boot32: video mode set
+boot32: PM ON
+boot32: paging ON
+boot32: kernel at 1MB
+kernel[0..3]=E641B0FA
+A12

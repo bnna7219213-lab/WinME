@@ -1,0 +1,5 @@
+$a4 = Get-Item "a4_gui.asm"
+$img = Get-Item "winme.img"
+Write-Output "a4_gui.asm mtime = $($a4.LastWriteTime)"
+Write-Output "winme.img  mtime = $($img.LastWriteTime)"
+Write-Output "img newer = $($img.LastWriteTime -gt $a4.LastWriteTime)"

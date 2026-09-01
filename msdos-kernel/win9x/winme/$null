@@ -1,0 +1,4 @@
+WARNING: Image format was not specified for 'C:\Users\bnna7\workspace\msdos-kernel\win9x\winme\winme.img' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+C:\qemu\qemu-system-i386.exe: sede: Could not open 'sede': 系统找不到指定的文件。

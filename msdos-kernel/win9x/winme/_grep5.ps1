@@ -1,0 +1,2 @@
+$s = Get-Content 'C:\Users\bnna7\workspace\msdos-kernel\win9x\winme\a4_gui.asm' -Encoding UTF8
+$s | Select-String 'rtl8139|e1000|nic_type|RTL8139|pci_|net_init|nic_init|arp_reply_mac|arp_send' | ForEach-Object { $_.LineNumber.ToString() + ': ' + $_.Line.Trim() }

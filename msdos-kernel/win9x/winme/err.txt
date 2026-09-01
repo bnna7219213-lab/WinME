@@ -1,0 +1,2 @@
+C:\qemu\qemu-system-i386.exe: -debugcon stdio: qemu_add_wait_object: failed
+C:\qemu\qemu-system-i386.exe: -debugcon stdio: invalid character backend 'stdio'

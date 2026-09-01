@@ -1,0 +1,4 @@
+boot32: stage1
+boot32: video mode set
+boot32: PM ON
+pqrst

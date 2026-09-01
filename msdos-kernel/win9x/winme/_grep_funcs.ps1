@@ -1,0 +1,2 @@
+$s = Get-Content 'C:\Users\bnna7\workspace\msdos-kernel\win9x\winme\a4_gui.asm' -Encoding UTF8
+$s | Select-String '^pe_parse:|^exe_load:|^exe_run:|^fs_install_exe:|^win_start:|^browser_|^WBR equ|^WIN equ|^win_|^exe_' | ForEach-Object { $_.LineNumber.ToString() + ': ' + $_.Line.Trim() }

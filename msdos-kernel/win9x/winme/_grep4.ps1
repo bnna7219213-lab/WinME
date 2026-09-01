@@ -1,0 +1,2 @@
+$s = Get-Content 'C:\Users\bnna7\workspace\msdos-kernel\win9x\winme\a4_gui.asm' -Encoding UTF8
+$s | Select-String 'wp_ins|ins_|dl_click|\.wex_p|br_dl_prog|win_start|draw_ludashi|draw_br|\.wbr_|WIN equ 15|download/getDownloadUrl|port 8081|tcp_dport|WEX equ 16|call exe_load|call exe_run' | ForEach-Object { $_.LineNumber.ToString() + ': ' + $_.Line.Trim() }

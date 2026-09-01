@@ -1,0 +1,6 @@
+# Bochs configuration for the MS-DOS toy kernel
+megs: 16
+floppya: 1_44=dos.img, status=inserted
+boot: a
+display_library: win32
+magic_break: enabled=0

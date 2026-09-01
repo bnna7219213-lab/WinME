@@ -1,0 +1,103 @@
+Win9x Axis - M-A3 (VMM/VxD demo)
+[AUTO] VMM + VTD scheduling demo...
+[M-A3] PM ON - VMM32 starting
+[VMM] init: creating virtual machines
+[VMM] Sys VM + DOS VM created, state=READY
+[VTD] init: PIC remap + PIT 100Hz
+[VTD] virtual timer device armed on IRQ0
+[VMM] scheduler start (round-robin, quantum=2)
+  [Sys VM] running, tick=1
+  [Sys VM] running, tick=1
+  [Sys VM] running, tick=1
+  [Sys VM] running, tick=1
+  [DOS VM] running, tick=2
+  [DOS VM] running, tick=2
+  [DOS VM] running, tick=2
+  [DOS VM] running, tick=2
+  [DOS VM] running, tick=3
+  [DOS VM] running, tick=3
+  [DOS VM] running, tick=3
+  [DOS VM] running, tick=3
+  [Sys VM] running, tick=4
+  [Sys VM] running, tick=4
+  [Sys VM] running, tick=4
+  [Sys VM] running, tick=5
+  [Sys VM] running, tick=5
+  [Sys VM] running, tick=5
+  [DOS VM] running, tick=6
+  [DOS VM] running, tick=6
+  [DOS VM] running, tick=6
+  [DOS VM] running, tick=6
+  [DOS VM] running, tick=7
+  [DOS VM] running, tick=7
+  [DOS VM] running, tick=7
+  [DOS VM] running, tick=7
+  [Sys VM] running, tick=8
+  [Sys VM] running, tick=8
+  [Sys VM] running, tick=8
+  [Sys VM] running, tick=8
+  [Sys VM] running, tick=9
+  [Sys VM] running, tick=9
+  [Sys VM] running, tick=9
+  [DOS VM] running, tick=10
+  [DOS VM] running, tick=10
+  [DOS VM] running, tick=10
+  [DOS VM] running, tick=10
+  [DOS VM] running, tick=11
+  [DOS VM] running, tick=11
+  [DOS VM] running, tick=11
+  [DOS VM] running, tick=11
+  [Sys VM] running, tick=12
+  [Sys VM] running, tick=12
+  [Sys VM] running, tick=12
+  [Sys VM] running, tick=12
+  [Sys VM] running, tick=13
+  [Sys VM] running, tick=13
+  [Sys VM] running, tick=13
+  [Sys VM] running, tick=13
+  [DOS VM] running, tick=14
+  [DOS VM] running, tick=14
+  [DOS VM] running, tick=14
+  [DOS VM] running, tick=15
+  [DOS VM] running, tick=15
+  [DOS VM] running, tick=15
+  [DOS VM] running, tick=15
+  [DOS VM] running, tick=15
+  [Sys VM] running, tick=16
+  [Sys VM] running, tick=16
+  [Sys VM] running, tick=16
+  [Sys VM] running, tick=16
+  [Sys VM] running, tick=17
+  [Sys VM] running, tick=17
+  [Sys VM] running, tick=17
+  [Sys VM] running, tick=17
+  [Sys VM] running, tick=17
+  [DOS VM] running, tick=18
+  [DOS VM] running, tick=18
+  [DOS VM] running, tick=18
+  [DOS VM] running, tick=18
+  [DOS VM] running, tick=19
+  [DOS VM] running, tick=19
+  [DOS VM] running, tick=19
+  [Sys VM] running, tick=20
+  [Sys VM] running, tick=20
+  [Sys VM] running, tick=20
+  [Sys VM] running, tick=20
+  [Sys VM] running, tick=21
+  [Sys VM] running, tick=21
+  [Sys VM] running, tick=21
+  [Sys VM] running, tick=21
+  [DOS VM] running, tick=22
+  [DOS VM] running, tick=22
+  [DOS VM] running, tick=22
+  [DOS VM] running, tick=22
+  [DOS VM] running, tick=23
+  [DOS VM] running, tick=23
+  [DOS VM] running, tick=23
+  [DOS VM] running, tick=23
+[VMM] shutdown - VM statistics:
+  VM SYS  ticks=12
+  VM DOS  ticks=12
+[VTD] total ticks=24
+BACK IN REAL MODE - VMM demo complete
+C:\>

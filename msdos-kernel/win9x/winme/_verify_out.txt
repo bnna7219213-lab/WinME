@@ -1,0 +1,37 @@
+WARNING: Image format was not specified for 'C:\Users\bnna7\workspace\msdos-kernel\win9x\winme\winme.img' and probing guessed raw.
+         Automatically detecting the format is dangerous for raw images, write operations on block 0 will be restricted.
+         Specify the 'raw' format explicitly to remove the restrictions.
+[warn] monitor: 使用“2”个参数调用“.ctor”时发生异常:“由于目标计算机积极拒绝，无法连接。 127.0.0.1:4511”
+=== winme debug log ===
+boot32: stage1
+boot32: PM ON
+pqrstuboot32: paging ON
+boot32: kernel at 1MB
+kernel[0..3]=41B0FCFA
+A
+[PASS] 32-bit loader (boot32, no M0 real-mode boot)
+[PASS] protected mode ON
+[PASS] paging ON
+[PASS] kernel loaded at 1MB (flat 32-bit)
+[FAIL] A4X demo start
+[FAIL] A4X desktop drawn
+[FAIL] A4X taskbar drawn
+[FAIL] A4X app window drawn
+[FAIL] A4X close button drawn
+[FAIL] VIN script loaded (VMM/VxD message path)
+[FAIL] A4X DONE
+[FAIL] RTL8139 NIC detected by kernel
+[FAIL] TCP SYN packet sent
+[FAIL] TCP TX completed (OWN cleared)
+[FAIL] TCP SYN-ACK received (handshake)
+[FAIL] TCP ESTABLISHED state reached
+[FAIL] HTTP GET request sent over TCP
+[FAIL] HTTP response received from server
+[FAIL] PE downloaded + parsed (dl_valid=3) OR bytecode installed (dl_valid=2)
+[PASS] real-mode 'MS-DOS' banner ABSENT (boot path removed)
+[FAIL] PE download+parse debug marker present
+[FAIL] PE exec returned to GUI
+[FAIL] serve_a4.py received GET /a4.exe
+[FAIL] no screenshot
+
+winme: PASS=0 FAIL=1

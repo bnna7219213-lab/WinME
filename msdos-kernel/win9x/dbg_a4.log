@@ -1,0 +1,16 @@
+M-A4 Win9x VDD + GUI (boot.asm path)
+[A4] VGA mode 13h (320x200x256) set
+[A4] DAC palette programmed (Win9x colors)
+[A4] FB probe ok (0xA0000 r/w in RM)
+[A4] PM gs@0xA0000 byte-test ok
+[A4] protected mode ON - VDD drawing
+[A4] self-check framebuffer: 0000000100000002000000020000000300000005DTSWCV000000EE [done]
+[VMM] init: creating System VM
+[VMM] System VM created, state=READY
+[VTD] init: PIC remap + PIT 100Hz
+[VTD] virtual timer device armed on IRQ0
+[A4] VMM + VTD armed - GUI animation loop
+[VMM] shutdown - VM statistics:
+  VM SYS  ticks=220
+[VTD] total ticks=220
+[A4] DONE

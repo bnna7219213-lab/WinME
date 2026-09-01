@@ -1,0 +1,24 @@
+MS-DOS Kernel v0.1 (16-bit real mode)
+(c) toy kernel project. Type 'help' for commands.
+--- self-test (headless) ---
+MS-DOS Kernel v0.1 / NASM 16-bit real mode
+commands:
+  help          show this help
+  ver           show version
+  cls           clear screen
+  echo <text>   print text
+  halt          stop the system
+hello-from-dos (auto echo demo)
+Bad command or file name.
+C:\>MS-DOS Kernel v0.1 (16-bit real mode)
+(c) toy kernel project. Type 'help' for commands.
+--- self-test (headless) ---
+commands:
+  help          show this help
+  ver           show version
+  cls           clear screen
+  echo <text>   print text
+  halt          stop the system
+hello-from-dos (auto echo demo)
+Bad command or file name.
+C:\>

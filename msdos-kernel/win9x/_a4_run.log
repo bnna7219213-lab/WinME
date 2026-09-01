@@ -1,0 +1,50 @@
+========== M-A4 QEMU run ==========
+QEMU started pid=9840
+self-check seen=True
+demo finished=True
+monitor: screendump + quit sent
+
+========== M-A4 debug log ==========
+M-A4 Win9x VDD + GUI (boot.asm path)
+[A4] VGA mode 13h (320x200x256) set
+[A4] DAC palette programmed (Win9x colors)
+[A4] FB probe ok (0xA0000 r/w in RM)
+[A4] PM gs@0xA0000 byte-test ok
+[A4] protected mode ON - VDD drawing
+[A4] self-check framebuffer: 0000000100000002000000020000000300000005DTSWCV000000EE [done]
+[VMM] init: creating System VM
+[VMM] System VM created, state=READY
+[VTD] init: PIC remap + PIT 100Hz
+[VTD] virtual timer device armed on IRQ0
+[A4] VMM + VTD armed - GUI animation loop
+[VMM] shutdown - VM statistics:
+  VM SYS  ticks=220
+[VTD] total ticks=220
+[A4] DONE
+
+[PASS] mode 13h set
+[PASS] protected mode ON
+[PASS] DAC palette programmed
+[PASS] framebuffer self-check V
+[PASS] VMM+VTD armed
+[PASS] demo DONE
+[PASS] VTD drove the System VM
+
+========== M-A4 screenshot (_a4.ppm) ==========
+PPM: magic=P6 size=640x400 maxval=255 (768015 bytes)
+[PASS] PPM screenshot produced
+[PASS] PPM is P6, 320x200 aspect
+scale = 2x2
+desktop(5,5)=0 128 128 taskbar(160,190)=192 192 192 startbtn(60,195)=192 192 192
+title(120,39)=0 0 128 client(120,110)=255 255 255 titletext(47,36)=255 255 255
+[PASS] desktop teal
+[PASS] taskbar gray
+[PASS] start button gray
+[PASS] title bar navy
+[PASS] client white
+[PASS] title text white
+distinct colours = 6
+[PASS] scene uses >=5 palette entries
+
+========== M-A4 SUMMARY ==========
+ALL PASS - M-A4 Win9x VDD+GUI verified

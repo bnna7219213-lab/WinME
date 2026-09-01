@@ -1,0 +1,57 @@
+========== M-A4+ QEMU run ==========
+QEMU started pid=30852
+  waiting 5x200ms
+  waiting 10x200ms
+[A4X] DONE seen=True
+monitor: screendump + quit sent
+
+========== M-A4+ debug log ==========
+boot32: stage1
+boot32: video mode set
+boot32: PM ON
+boot32: paging ON
+boot32: kernel at 1MB
+kernel[0..3]=E641B0FA
+A123456789:;<[A4X] demo:start
+[A4X] demo:desktop
+[A4X] demo:taskbar
+[A4X] demo:startbtn
+[A4X] demo:appwnd
+[A4X] demo:closebtn
+[A4X] demo:beforepaint
+[A4X] CreateWindow x6
+[A4X] VIN script loaded
+[A4X] menu show
+[A4X] window moved
+[A4X] window moved
+[A4X] context menu
+[A4X] window closed
+[A4X] VIN done
+[A4X] DONE
+
+[PASS] init probe A123456789:;<
+[PASS] CreateWindow x6
+[PASS] VIN script loaded
+[PASS] menu show
+[PASS] window moved
+[PASS] context menu
+[PASS] window closed
+[PASS] A4X DONE
+
+========== M-A4+ screenshot (_a4x.ppm) ==========
+PPM: magic=P6 size=640x400 maxval=255 (768015 bytes)
+[PASS] PPM screenshot produced
+[PASS] PPM is P6, 320x200 aspect
+scale = 2x2
+desktop(5,70)=0 64 160 taskbar(160,190)=176 176 176 startbtn(60,195)=176 176 176
+title(120,33)=23 23 120 client(180,109)=232 232 232 titletext(47,15)=0 15 128 menu(50,130)=192 192 192
+[PASS] desktop gradient blue
+[PASS] taskbar gray
+[PASS] start button gray
+[PASS] title bar navy
+[PASS] client area
+distinct colours = 35
+[PASS] scene uses >=8 palette entries
+
+========== M-A4+ SUMMARY ==========
+ALL PASS - M-A4+ Win9x GUI verified

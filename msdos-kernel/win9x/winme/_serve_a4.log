@@ -1,0 +1,4 @@
+PE HTTP server on port 8080
+Serving C:\Users\bnna7\workspace\msdos-kernel\win9x\winme\build\hello.exe (2561 bytes)
+Log: "GET /a4.exe HTTP/1.1" 200 -
+Served 2561 bytes to 127.0.0.1 (UA: (no UA))

@@ -1,0 +1,9 @@
+set pagination off
+set confirm off
+target remote 127.0.0.1:1234
+set *(unsigned int*)0xFEBC0410 = 0x0000010A
+printf "TCTL after GDB write: 0x%08x\n", *(unsigned int*)0xFEBC0410
+set *(unsigned int*)0xFEBC0410 = 0x0000010A
+printf "TCTL after 2nd write: 0x%08x\n", *(unsigned int*)0xFEBC0410
+detach
+quit
